@@ -1,6 +1,7 @@
 .SingleApplication {
   display: grid;
-  grid-template-columns: 15% 15% auto 15% 15% 15%;
+  grid-template-columns: 7% 15% 15% auto auto auto auto;
+  align-items: start;
   padding: 20px;
 
   background-color: white;
@@ -11,7 +12,6 @@
 
 .cell {
   text-align: left;
-  border-right: 1px solid #eee;
   padding: 0 15px;
 }
 
@@ -20,4 +20,23 @@
   font-size: 0.8rem;
   color: #999;
   margin-bottom: 5px;
+}
+
+.email{
+  text-decoration: none;
+  color: #6495f0;
+}
+
+.avatar {
+  height: 50px;
+}
+
+@media screen and (max-width: 700px) {
+  .SingleApplication {
+    grid-template-columns: 1fr;
+  }
+  .avatarContainer {
+    display: flex;
+    justify-content: center
+  }
 }

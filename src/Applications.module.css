@@ -3,3 +3,17 @@
   max-width: 1200px;
   margin: 0 auto;
 }
+
+.buttonContainer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.loadMore{
+  width: 15rem;
+  font-size: medium;
+}
+
+
