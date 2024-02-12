@@ -1,3 +1,11 @@
+This repository contains my attempt at iwoca's take-home assessment. Despite my best efforts to implement the solution correctly, I was ultimately rejected. The feedback I received was that "it would have been better to increase the page on each API call instead of increasing the limit." 
+
+I found this feedback to be quite unfair and unhelpful. The Figma mockup clearly shows a "Load More" button, and typically, from a user's expectation, a "Load More" button would increase the limit to display more information, rather than paginating. If pagination was the intended approach, it would have been helpful for the mockups to include pagination buttons instead of the "Load More" button.
+
+Nevertheless, I don't want my hard work to go to waste, so I’m making this repository public. To anyone at iwoca reading this, I hope this serves as feedback to consider making future assessments clearer and more fairer.
+
+
+
 ## iwoca frontend interview test (application portal)
 
 ### Setup
